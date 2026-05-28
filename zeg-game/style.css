@@ -1,0 +1,17 @@
+html,
+body {
+  height: 100vh;
+  background-color:yellow;
+}
+
+.header {
+  height: 80px;
+}
+
+.main {
+  height: calc(100vh - 160px);
+}
+
+.footer {
+  height: 80px;
+}
