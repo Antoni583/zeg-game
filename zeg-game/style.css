@@ -1,7 +1,7 @@
 html,
 body {
   height: 100vh;
-  background-color:yellow;
+    background-color: rgb(211, 184, 184);
 }
 
 .header {
@@ -14,4 +14,29 @@ body {
 
 .footer {
   height: 80px;
+}
+
+.area {
+  border: 4px solid black;
+  background-color: white;
+  box-shadow: 0 0 20px gray;
+}
+
+.lobby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 480px;
+  height: 480px;
+
+  background-color: white;
+  border: 4px solid black;
+  box-shadow: 0 0 20px gray;
+}
+
+.lobby h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
 }
